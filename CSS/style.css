@@ -507,7 +507,7 @@ nav ul li a {
     margin: 0.6rem 0 2.5rem;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 550px) {
     p{
         font-size: 1rem;
     }
@@ -545,5 +545,8 @@ nav ul li a {
   }
   .portfolio-info p{
     text-align: left;
+  }
+  .btn-submit{
+    width: 107%;
   }
 }
