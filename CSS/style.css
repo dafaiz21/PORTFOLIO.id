@@ -519,7 +519,7 @@ nav ul li a {
     }
     .portfolio-title a{
         font-size: 1rem;
-        margin-right: 1.5rem;
+        margin-right: 3.5rem;
     }
 
   .grid-3 {
@@ -539,12 +539,12 @@ nav ul li a {
   .portfolio-cover img {
     width: 80%;
     height: 160%;
-    margin-left: 4rem;
+    margin-left: 1rem;
   }
 
   .portfolio-info {
     margin-top: 5rem;
-    margin-left: 2.5rem;
+    /* margin-left: 2rem; */
   }
   .portfolio-info p{
     text-align: left;
@@ -555,5 +555,8 @@ nav ul li a {
   .contact-left input,
   .contact-left textarea{
     width: 100%;
+  }
+  .contact-right{
+    margin-left: -5px;
   }
 }
