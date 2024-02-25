@@ -513,7 +513,7 @@ nav ul li a {
 @media screen and (max-width: 550px) {
 
   .hero-left{
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     text-align: justify;
   }
   p {
