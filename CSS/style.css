@@ -423,13 +423,16 @@ nav ul li a {
 
 /*  responsive code */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   p {
     font-size: 0.9rem;
     line-height: 1.8rem;
   }
   .grid-3 {
     gap: 1rem;
+  }
+  .contact-right{
+    margin-left: 3rem;
   }
   .skill-right ul li {
     font-size: 0.9rem;
@@ -478,7 +481,7 @@ nav ul li a {
     width: 50%;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     background: #fafafa;
     border-left: 1px solid #000;
@@ -488,7 +491,7 @@ nav ul li a {
   }
 
   nav ul {
-    height: 100vh;
+    height: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -499,7 +502,7 @@ nav ul li a {
   }
 
   .btn-submit {
-    width: 85%;
+    width:73%;
   }
 
   .section-title {
@@ -547,6 +550,10 @@ nav ul li a {
     text-align: left;
   }
   .btn-submit{
-    width: 107%;
+    width: 100%;
+  }
+  .contact-left input,
+  .contact-left textarea{
+    width: 100%;
   }
 }
