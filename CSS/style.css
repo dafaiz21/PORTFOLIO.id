@@ -512,8 +512,9 @@ nav ul li a {
 }
 @media screen and (max-width: 550px) {
 
-  #hero{
-    margin-left: 2rem;
+  .hero-left{
+    margin-left: 2.5rem;
+    text-align: justify;
   }
   p {
     font-size: 1rem;
@@ -552,7 +553,7 @@ nav ul li a {
     margin-left: 1rem;
   }
   .portfolio-info p {
-    text-align: left;
+    text-align: justify;
   }
   .btn-submit {
     width: 100%;
