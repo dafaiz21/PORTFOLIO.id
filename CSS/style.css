@@ -200,7 +200,7 @@ nav ul li a {
 .service {
   background: white;
   padding: 3rem 2rem;
-  margin: 0 1rem 0 ;
+  margin: 0 1rem 0;
   text-align: center;
   border-radius: 10px;
 }
@@ -413,12 +413,12 @@ nav ul li a {
 }
 .icon-footer i {
   font-size: 1.5rem;
-  padding: .5rem;
+  padding: 0.5rem;
   color: black;
 }
 
 .icon-footer p {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 /*  responsive code */
@@ -431,7 +431,7 @@ nav ul li a {
   .grid-3 {
     gap: 1rem;
   }
-  .contact-right{
+  .contact-right {
     margin-left: 3rem;
   }
   .skill-right ul li {
@@ -502,7 +502,7 @@ nav ul li a {
   }
 
   .btn-submit {
-    width:73%;
+    width: 73%;
   }
 
   .section-title {
@@ -511,17 +511,21 @@ nav ul li a {
   }
 }
 @media screen and (max-width: 550px) {
-    p{
-        font-size: 1rem;
-    }
-    .portfolio-title h4{
-        font-size: 1rem;
-        margin-left: .5rem;
-    }
-    .portfolio-title a{
-        font-size: 1rem;
-        margin-right: 1rem;
-    }
+
+  #hero{
+    margin-left: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .portfolio-title h4 {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+  .portfolio-title a {
+    font-size: 1rem;
+    margin-right: 2rem;
+  }
 
   .grid-3 {
     grid-template-columns: 1fr;
@@ -540,26 +544,26 @@ nav ul li a {
   .portfolio-cover img {
     width: 80%;
     height: 160%;
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
   }
 
   .portfolio-info {
     margin-top: 5rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
-  .portfolio-info p{
+  .portfolio-info p {
     text-align: left;
   }
-  .btn-submit{
+  .btn-submit {
     width: 100%;
     margin-left: -30px;
   }
   .contact-left input,
-  .contact-left textarea{
+  .contact-left textarea {
     width: 100%;
     margin-left: -30px;
   }
-  .contact-right{
+  .contact-right {
     margin-left: -20px;
   }
 }
