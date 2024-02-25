@@ -516,11 +516,11 @@ nav ul li a {
     }
     .portfolio-title h4{
         font-size: 1rem;
-        margin-left: 1.5rem;
+        margin-left: .5rem;
     }
     .portfolio-title a{
         font-size: 1rem;
-        margin-right: 1.5rem;
+        margin-right: 1rem;
     }
 
   .grid-3 {
@@ -540,24 +540,26 @@ nav ul li a {
   .portfolio-cover img {
     width: 80%;
     height: 160%;
-    margin-left: 3rem;
+    margin-left: 3.5rem;
   }
 
   .portfolio-info {
     margin-top: 5rem;
-    /* margin-left: 2rem; */
+    margin-left: 1.5rem;
   }
   .portfolio-info p{
     text-align: left;
   }
   .btn-submit{
     width: 100%;
+    margin-left: -30px;
   }
   .contact-left input,
   .contact-left textarea{
     width: 100%;
+    margin-left: -30px;
   }
   .contact-right{
-    margin-left: -5px;
+    margin-left: -20px;
   }
 }
